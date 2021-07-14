@@ -1,7 +1,10 @@
 import React from 'react';
+import logo from './logo.svg';
+import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from "./Components/Headers";
 import Home from "./Components/Home"
+
 function App() {
   return (
     <div className="App">
@@ -12,3 +15,4 @@ function App() {
 }
 
 export default App;
+ 
